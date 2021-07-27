@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../static/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+    rel="stylesheet">
+  <script src="./static/calc.js"></script>
+  <title>calculer votre score</title>
+</head>
+
+<body>
+  <section>
+    <main class="container">
+      <div class="header">
+        <h1>score bac technique</h1>
+      </div>
+
+      <div>
+        <form name="last" class="stform">
+          <label>Moyenne General</label>
+          <input class="txt_input" type="text" id="mg" name="mg" />
+
+          <label>Math</label>
+          <input class="txt_input" type="text" id="math" name="math" />
+
+          <label>Physique</label>
+          <input class="txt_input" type="text" id="phys" name="phys" />
+
+          <label>technique</label>
+          <input class="txt_input" type="text" id="techn" name="techn" />
+
+          <label>anglais</label>
+          <input class="txt_input" type="text" id="ang" name="ang" />
+
+          <label>francais</label>
+          <input class="txt_input" type="text" id="fr" name="fr" />
+
+          <input type="button" onclick="bactc()" id="btn" class="btn" value="calculer" />
+          <label>score</label>
+          <input disabled class="txt_input" type="text" id="score_f" name="final" />
+        </form>
+      </div>
+    </main>
+  </section>
+</body>
+
+</html>
